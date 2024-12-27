@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyanarayana</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body> 
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Internships">Internships</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Satyanarayana</span><br>Badugu </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/IMG_20241106_130204_187.webp" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I’m a motivated final-year B.Tech student specializing in AIML, with a strong interest in frontend development. Skilled 
+                        in HTML, CSS, JavaScript, Bootstrap, and ReactJS, I enjoy building responsive and visually appealing web 
+                        interfaces. I have hands-on experience with Git and GitHub for version control and collaborative development. I’m 
+                        eager to apply my skills in a professional environment, contribute to meaningful projects, and learn from experienced 
+                        developers during an internship. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                           
+                            <li><span>HTML5</span><br>100%</li>
+                            <li><span>CSS3</span><br>90%</li>
+                            <li><span>JAVASCRIPT</span><br>70%</li>
+                            <li><span>BOOTSTRAP</span><br>100%</li>
+                            <li><span>REACTJS</span><br>80%</li>
+                            <li><span>GIT\GITHUB</span><br>100</li>
+                            
+                            
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024</span><br>Web fullstack development virtual internship at Eduskills</li>
+                            <li><span>2024</span><br> AIML google virtual Internships at Eduskills</li>
+                            <li><span>2023</span><br>Salesforce virtual internship at Smartinternz</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021-2025</span><br>BTECH FROM kakinada institute of engineering and technology</li>
+                            <li><span>2019-2021</span><br>Vikas junior college</li>
+                            <li><span>2019</span><br>SSC from Z.P high school</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title"> My projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-cash-register"></i>
+                    <h2>Complete Responsive tours and travels website</h2>
+                    <p>I developed a dynamic Tourism website designing to showcase destinations, attractions, and travel services in an engaging and user-friendly manner. The project features a visually appealing interface with interactive maps, detailed itineraries, and booking options to enhance the user experience. The site integrates responsive design to ensure seamless access across all devices, and it employs SEO best practices to increase visibility. Overall, it aims to inspire and facilitate travel planning for users while reflecting the unique appeal of the destinations.</p>
+                    <a href="https://github.com/Saty2anarayana/Travelling-web-page.git">Github LINk</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Complete Responsive Online Education Website</h2>
+                    <p>I designed and developed a fully responsive online education website for students to explore and purchase courses in their preferred fields. The website was built using HTML, CSS, Bootstrap, and JavaScript, ensuring a seamless user experience across devices. </p>
+                    <a href="https://github.com/Saty2anarayana/Online-Educational-responsivewebsite.git">Github Link</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>My portfolio website</h2>
+                    <p>
+                        I created a responsive portfolio website using HTML and CSS, showcasing my skills, projects, and contact details. The website highlights a clean design and structured layout to leave a professional impression on potential employers.</p>
+                    <a href="#">Github Link</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="Internships">
+        <div class="container">
+            <h1 class="sub-title">My Internships</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" >
+                    <div class="layer">
+                        <h3>Web fullstack development virtual internship</h3>
+                        <p>......</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-2.png">
+                    <div class="layer">
+                        <h3>AIML google virtual Internships</h3>
+                        <p>......</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-3.png">
+                    <div class="layer">
+                        <h3>Salesforce virtual internship</h3>
+                        <p>......</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>badugusatyanarayana751@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9347298189</p>
+                <div class="social-icons">
+                    <a href="https://x.com/Satyanaray44140"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/satya__1193/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/satyanarayana-badugu-667350267]"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Saty2anarayana"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="c:\Users\venka\Downloads\BADUGU SATYANARAYANA FRONTENED.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <section class="footer">
+        <h1 class="credit"> created by <span>mr.satya</span>| all rights reserved.</h1>
+        <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="https://x.com/Satyanaray44140" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/satya__1193/" class="fab fa-instagram"></a>
+            <a href="https://github.com/Saty2anarayana" class="fab fa-github"></a>
+            <a href="https://www.linkedin.com/in/satyanarayana-badugu-667350267]" class="fab fa-linkedin"></a>
+        </div>
+        
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxty0cF6-8MJNcs13HbV-ye-Eq529YGm7IfppCl99hKtg0ezffv2lyCMnht3AsuKgsb/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
